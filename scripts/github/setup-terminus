@@ -24,11 +24,15 @@ sudo ln -s ~/terminus/terminus /usr/local/bin/terminus
 
 terminus self:info
 terminus art
+terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
+terminus auth:whoami
+terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
 
 
-~/terminus/vendor/bin/terminus self:info
-~/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
-~/terminus/vendor/bin/terminus auth:whoami
-~/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
 
-~/terminus/vendor/bin/terminus art
+# ~/terminus/vendor/bin/terminus self:info
+# ~/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
+# ~/terminus/vendor/bin/terminus auth:whoami
+# ~/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
+
+# ~/terminus/vendor/bin/terminus art
