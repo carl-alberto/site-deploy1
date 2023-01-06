@@ -19,18 +19,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Setup Caches
-      id: cache
-      uses: actions/cache@v1
-      with:
-        path: |
-          vendor
-          terminus
-          web/wp
-          web/wp-content
-        # key: ${{ runner.os }}-cache
-        key: cache
-
     - name: Cache found load keys
       if: steps.cache-vendor.outputs.cache-hit != 'true'
       run: |
