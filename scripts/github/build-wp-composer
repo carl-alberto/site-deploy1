@@ -9,7 +9,7 @@ export PROJECT_ROOT="$(pwd)"
 # ssh-add -l
 
 cd $PROJECT_ROOT
-rm $PROJECT_ROOT/composer.lock
+#rm $PROJECT_ROOT/composer.lock
 composer install
 echo 'wp composer build success!!'
 
