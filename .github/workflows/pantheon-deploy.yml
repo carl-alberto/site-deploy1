@@ -18,14 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
     - name: Cache found load keys
-      if: steps.cache-vendor.outputs.cache-hit != 'true'
       run: |
-        echo 'Cache found'
-        ls web
-        echo 'root folder'
-        ls
         
         export PROJECT_ROOT="$(pwd)"
         . $PROJECT_ROOT/config
