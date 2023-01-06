@@ -1,0 +1,4 @@
+REFERENCE_SITE_URL="https://dev-site-deploy-gh1.pantheonsite.io"
+QA_PANTHEONENV="test"
+PANTHEONENV="dev"
+PANTHEONSITENAME="site-deploy-gh1"
