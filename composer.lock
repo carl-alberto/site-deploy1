@@ -155,26 +155,28 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+                "reference": "237faae9a60a4a2e1d45dce1a5836ffa616de63e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/237faae9a60a4a2e1d45dce1a5836ffa616de63e",
+                "reference": "237faae9a60a4a2e1d45dce1a5836ffa616de63e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.6.0"
             },
             "conflict": {
                 "composer/installers": "<1.0.6"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0 || ^2.0",
+                "phpunit/phpunit": ">=5.7.27"
             },
             "type": "composer-plugin",
             "extra": {
@@ -187,7 +189,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -199,24 +201,24 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11T15:15:30+00:00"
+            "time": "2020-04-16T21:44:57+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
-            "version": "2.0.2",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/quicksilver-pushback.git",
-                "reference": "5f0def4e0f31b1bbde6a6ac126792161e75c750b"
+                "reference": "849c57c31c678ed023ccdb2a7bde9ab14beb9c22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/quicksilver-pushback/zipball/5f0def4e0f31b1bbde6a6ac126792161e75c750b",
-                "reference": "5f0def4e0f31b1bbde6a6ac126792161e75c750b",
+                "url": "https://api.github.com/repos/pantheon-systems/quicksilver-pushback/zipball/849c57c31c678ed023ccdb2a7bde9ab14beb9c22",
+                "reference": "849c57c31c678ed023ccdb2a7bde9ab14beb9c22",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "quicksilver-script",
             "notification-url": "https://packagist.org/downloads/",
@@ -224,24 +226,24 @@
                 "MIT"
             ],
             "description": "Push commits made via the Pantheon dashboard back to original GitHub repository.",
-            "time": "2020-08-20T22:12:09+00:00"
+            "time": "2023-01-03T20:41:22+00:00"
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "5.8.1",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "426ed861bf5588ae12326ff9ce8baa77415b295f"
+                "reference": "b1bf72c6b4732ea3aed9654669f29e2a82ca19ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/426ed861bf5588ae12326ff9ce8baa77415b295f",
-                "reference": "426ed861bf5588ae12326ff9ce8baa77415b295f",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/b1bf72c6b4732ea3aed9654669f29e2a82ca19ef",
+                "reference": "b1bf72c6b4732ea3aed9654669f29e2a82ca19ef",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core-installer": "~0.1"
+                "johnpbloch/wordpress-core-installer": "^2.0"
             },
             "type": "wordpress-core",
             "extra": {
@@ -255,36 +257,40 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.8.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/6.1.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2021-09-09T05:10:38+00:00"
+            "time": "2022-11-15T21:09:14+00:00"
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "5455cb38aed4523f99977c4a12ef19da4bfe2a28"
+                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/5455cb38aed4523f99977c4a12ef19da4bfe2a28",
-                "reference": "5455cb38aed4523f99977c4a12ef19da4bfe2a28",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^8.0"
+                "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "phpunit/phpunit": "^6.5.14 || ^7.0.20 || ^8.5.19 || ^9.5.8"
+                "bamarni/composer-bin-plugin": "^1.8",
+                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
             },
             "type": "library",
             "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": true
+                },
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -299,11 +305,13 @@
             "authors": [
                 {
                     "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com"
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh"
                 },
                 {
                     "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk"
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
                 }
             ],
             "description": "Option Type for PHP",
@@ -323,31 +331,32 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-28T21:27:29+00:00"
+            "time": "2022-07-30T15:51:26+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wp-password-bcrypt.git",
-                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa"
+                "reference": "15f0d8919fb3731f79a0cf2fb47e1baecb86cb26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
-                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/15f0d8919fb3731f79a0cf2fb47e1baecb86cb26",
+                "reference": "15f0d8919fb3731f79a0cf2fb47e1baecb86cb26",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.5.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "brain/monkey": "^1.3.1",
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^4.8.23|^5.2.9",
-                "squizlabs/php_codesniffer": "^2.5.1"
+                "brain/monkey": "^2.6",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "mockery/mockery": "^1.4",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "phpunit/phpunit": "<= 9.3",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
             "autoload": {
@@ -366,8 +375,12 @@
                     "homepage": "https://github.com/swalkinshaw"
                 },
                 {
-                    "name": "qwp6t",
+                    "name": "QWp6t",
                     "homepage": "https://github.com/qwp6t"
+                },
+                {
+                    "name": "Brandon Nifong",
+                    "homepage": "https://github.com/log1x"
                 },
                 {
                     "name": "Jan Pingel",
@@ -378,9 +391,21 @@
             "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
             "homepage": "https://roots.io/plugins/wp-password-bcrypt",
             "keywords": [
-                "wordpress wp bcrypt password"
+                "bcrypt",
+                "passwords",
+                "wordpress"
             ],
-            "time": "2016-03-01T16:27:06+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/rootsdev",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-10-31T01:18:58+00:00"
         },
         {
             "name": "rvtraveller/qs-composer-installer",
@@ -422,20 +447,23 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.23.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/46cd95797e9df938fdd2b03693b5fca5e64b01ce",
-                "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
+            },
+            "provide": {
+                "ext-ctype": "*"
             },
             "suggest": {
                 "ext-ctype": "For best performance"
@@ -443,7 +471,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -451,12 +479,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -494,20 +522,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-19T12:13:01+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.9",
+            "version": "v3.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "a1bf4c9853d90ade427b4efe35355fc41b3d6988"
+                "reference": "5b547cdb25825f10251370f57ba5d9d924e6f68e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/a1bf4c9853d90ade427b4efe35355fc41b3d6988",
-                "reference": "a1bf4c9853d90ade427b4efe35355fc41b3d6988",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/5b547cdb25825f10251370f57ba5d9d924e6f68e",
+                "reference": "5b547cdb25825f10251370f57ba5d9d924e6f68e",
                 "shasum": ""
             },
             "require": {
@@ -542,11 +570,13 @@
             "authors": [
                 {
                     "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk"
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
                 },
                 {
                     "name": "Vance Lucas",
-                    "email": "vance@vancelucas.com"
+                    "email": "vance@vancelucas.com",
+                    "homepage": "https://github.com/vlucas"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -565,7 +595,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-02T19:07:56+00:00"
+            "time": "2021-12-12T23:02:06+00:00"
         },
         {
             "name": "wpackagist-plugin/airpress",
@@ -598,7 +628,7 @@
                 "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-security-and-firewall.zip?timestamp=1626741605"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/",
@@ -617,7 +647,7 @@
                 "url": "https://downloads.wordpress.org/plugin/autoptimize.zip?timestamp=1630477275"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autoptimize/",
@@ -636,7 +666,7 @@
                 "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.zip?timestamp=1631303408"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/",
@@ -655,7 +685,7 @@
                 "url": "https://downloads.wordpress.org/plugin/inline-google-spreadsheet-viewer.zip?timestamp=1589441453"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/inline-google-spreadsheet-viewer/",
@@ -663,36 +693,36 @@
         },
         {
             "name": "wpackagist-plugin/json-content-importer",
-            "version": "1.3.12",
+            "version": "1.3.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/json-content-importer/",
-                "reference": "tags/1.3.12"
+                "reference": "tags/1.3.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/json-content-importer.1.3.14.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/json-content-importer/"
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pantheon-advanced-page-cache/",
-                "reference": "tags/1.0.0"
+                "reference": "tags/1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.1.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.1.2.0.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
@@ -710,7 +740,7 @@
                 "url": "https://downloads.wordpress.org/plugin/plugin-organizer.zip?timestamp=1632761746"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/plugin-organizer/",
@@ -729,7 +759,7 @@
                 "url": "https://downloads.wordpress.org/plugin/redirection.zip?timestamp=1627107720"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redirection/",
@@ -748,7 +778,7 @@
                 "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.zip?timestamp=1633440531"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/seo-by-rank-math/",
@@ -767,7 +797,7 @@
                 "url": "https://downloads.wordpress.org/plugin/stream.zip?timestamp=1631904778"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stream/",
@@ -786,7 +816,7 @@
                 "url": "https://downloads.wordpress.org/plugin/two-factor.zip?timestamp=1630999277"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/two-factor/",
@@ -805,7 +835,7 @@
                 "url": "https://downloads.wordpress.org/plugin/unicard.zip?timestamp=1585321692"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/unicard/",
@@ -842,7 +872,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wordpress-importer.zip?timestamp=1600884758"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/",
@@ -879,7 +909,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-cfm.zip?timestamp=1613510781"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-cfm/",
@@ -887,18 +917,18 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "1.2.4",
+            "version": "1.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/1.2.4"
+                "reference": "tags/1.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.3.1.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
@@ -916,7 +946,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-redis.zip?timestamp=1626094999"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-redis/",
@@ -935,7 +965,7 @@
                 "url": "https://downloads.wordpress.org/plugin/wp-smushit.zip?timestamp=1630994994"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-smushit/",
@@ -943,18 +973,18 @@
         },
         {
             "name": "wpackagist-theme/twentytwenty",
-            "version": "1.8",
+            "version": "1.9",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentytwenty/",
-                "reference": "1.8"
+                "reference": "1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.8.zip"
+                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.9.zip"
             },
             "require": {
-                "composer/installers": "~1.0 || ~2.0"
+                "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/twentytwenty/"
