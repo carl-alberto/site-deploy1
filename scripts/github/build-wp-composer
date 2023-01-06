@@ -10,6 +10,7 @@ export PROJECT_ROOT="$(pwd)"
 
 cd $PROJECT_ROOT
 #rm $PROJECT_ROOT/composer.lock
+composer update
 composer install
 echo 'wp composer build success!!'
 
@@ -76,7 +77,7 @@ export MSG1
 DEPLOYMSG="Complete rebuild. Deployed from GitHub $MSG1"
 export DEPLOYMSG
 echo "$DEPLOYMSG"
-echo ::set-env name=PULL_NUMBER::$(echo "$GH_REF2" | awk -F / '{print $3}')
+#echo ::set-env name=PULL_NUMBER::$(echo "$GH_REF2" | awk -F / '{print $3}')
 
 terminus env:commit --message "$DEPLOYMSG" --force -- $PANTHEONSITENAME.$PANTHEONENV
 
