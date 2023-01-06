@@ -22,6 +22,9 @@ sudo ln -s ~/terminus/terminus /usr/local/bin/terminus
 
 # /home/runner/terminus/vendor/bin/terminus art
 
+terminus self:info
+terminus art
+
 
 ~/terminus/vendor/bin/terminus self:info
 ~/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
