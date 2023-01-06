@@ -15,17 +15,17 @@ sudo ln -s ~/terminus/terminus /usr/local/bin/terminus
 
 
 
-/home/runner/terminus/vendor/bin/terminus self:info
-/home/runner/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
-/home/runner/terminus/vendor/bin/terminus auth:whoami
-/home/runner/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
+# /home/runner/terminus/vendor/bin/terminus self:info
+# /home/runner/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
+# /home/runner/terminus/vendor/bin/terminus auth:whoami
+# /home/runner/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
 
-/home/runner/terminus/vendor/bin/terminus art
+# /home/runner/terminus/vendor/bin/terminus art
 
 
-/home/runner/terminus/vendor/bin/terminus self:info
-/home/runner/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
-/home/runner/terminus/vendor/bin/terminus auth:whoami
-/home/runner/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
+~/terminus/vendor/bin/terminus self:info
+~/terminus/vendor/bin/terminus auth:login --machine-token="$MACHINETOKEN" --email="$PANTHEONEMAIL"
+~/terminus/vendor/bin/terminus auth:whoami
+~/terminus/vendor/bin/terminus connection:set $PANTHEONSITENAME.$PANTHEONENV sftp
 
-/home/runner/terminus/vendor/bin/terminus art
+~/terminus/vendor/bin/terminus art
